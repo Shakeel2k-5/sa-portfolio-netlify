@@ -1,2 +1,1 @@
-**Portfolio-Website**
-It is Portfolio website of a student who is pursuing 3rd Year , Bachelor's degree in Computer Science in Government College of Engineering, Erode
+Welcome to the portfolio of a 3rd-year Computer Science student at Government College of Engineering, Erode. This website highlights projects, achievements, and skills developed throughout my academic journey. Dive in to explore my work in web development, software engineering, and more.
