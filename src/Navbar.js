@@ -9,7 +9,7 @@ export default function Navbar() {
       <img src={Logo} alt="Site Logo" />
 
       <div className="linksdiv">
-        <NavLink to="/" className={({ isActive }) => (isActive ? "links active-link" : "links")} exact>
+        <NavLink to="/Portfolio-Website" className={({ isActive }) => (isActive ? "links active-link" : "links")} exact>
           Home
         </NavLink>
         <NavLink to="/about" className={({ isActive }) => (isActive ? "links active-link" : "links")}>
