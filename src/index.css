@@ -1,0 +1,19 @@
+body {
+  background: url(./sources/2416004.jpg);
+  background-size: cover;
+  width: 100%;
+  justify-content: center;
+  font-family: poppins;
+  align-items: center;
+}
+
+.rootdiv{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content:space-between;
+  justify-content:center;
+  height:100%;
+  row-gap: 4rem;
+  width: 100%;
+}

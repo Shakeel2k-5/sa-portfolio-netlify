@@ -1,0 +1,71 @@
+.greetingtext,.role{
+    font-size: 1.4rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    user-select: none;
+}
+
+.name{
+    font-size: 2rem;
+    color:white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    user-select: none;
+    text-wrap: wrap;
+}
+
+.greetingdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+    margin-top: 8rem;
+}
+
+.greetingtext{
+  margin-right: 10px;
+  text-wrap: nowrap;
+}
+
+.intro-1{
+  display: flex;
+  flex-direction: row;
+  align-items:baseline;
+}
+
+.download-btn {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight:300;
+    font-family: poppins;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .download-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    transition: left 0.8s ease-in-out;
+  }
+  
+  .download-btn:hover::before {
+    left: 0;
+  }
+  
+  .download-btn:hover {
+    background-color: black;
+    color: white;
+  }
+
+  
+  

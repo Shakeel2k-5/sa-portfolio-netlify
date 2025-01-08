@@ -1,0 +1,57 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 96vw;
+  margin: 20px;
+  position: relative;
+}
+
+.linksdiv {
+  display: flex;
+  gap: 2rem;
+}
+
+.links {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: medium;
+  transition: color 0.2s ease;
+  border-bottom: 2px solid transparent;
+  transition: all 0.42s;
+  cursor: pointer;
+  padding-bottom: 0.4rem;
+}
+
+.links:hover {
+  border-bottom: 2px solid rgb(206, 206, 206);
+}
+
+.active-link {
+  border-bottom: 2px solid rgb(206, 206, 206);
+  color: #0177ff;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger span {
+  height: 2px;
+  width: 25px;
+  background: white;
+  margin-bottom: 5px;
+  transition: all 0.3s ease;
+}
+
+
+@media (max-width: 768px) {
+  .navbar{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+}
