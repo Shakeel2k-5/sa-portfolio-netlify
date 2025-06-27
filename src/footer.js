@@ -12,19 +12,19 @@ export default function FooterDiv(){
             <footer>
                 
                 <div className="contactdiv">
-                    <div><a href="mailto:shakeelabdullahahamedbatcha@gmail.com"><img src={gmail} className="contactlogo"/></a></div>
+                    <div><a href="mailto:shakeelabdullahahamedbatcha@gmail.com"><img src={gmail} className="contactlogo" alt="Gmail icon"/></a></div>
                 </div>
 
                 <div className="contactdiv">
-                    <div><a href="https://github.com/Shakeel2k-5/"><img src={github} className="contactlogo"/></a></div>
+                    <div><a href="https://github.com/Shakeel2k-5/"><img src={github} className="contactlogo" alt="GitHub icon"/></a></div>
                 </div>
                 
                 <div className="contactdiv">
-                    <div><a href="https://www.linkedin.com/in/shakeel-abdullah/"><img src={linkedin} className="contactlogo"/></a></div>
+                    <div><a href="https://www.linkedin.com/in/shakeel-abdullah/"><img src={linkedin} className="contactlogo" alt="LinkedIn icon"/></a></div>
                 </div>
 
                 <div className="contactdiv">
-                    <div><a href="https://leetcode.com/u/shakeel2005/"><img src={leetcode} className="contactlogo"/></a></div>
+                    <div><a href="https://leetcode.com/u/shakeel2005/"><img src={leetcode} className="contactlogo" alt="LeetCode icon"/></a></div>
                 </div>
             </footer>
         </div>

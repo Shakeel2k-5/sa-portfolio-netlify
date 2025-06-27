@@ -1,6 +1,5 @@
 import React from "react"
 import "./projects.css"
-import github from "./sources/bi_github.svg"
 import ProjectDetails from "./projectdetails"
 
 export default function Projects() {
@@ -34,13 +33,13 @@ export default function Projects() {
 
             <ProjectDetails 
                 projecttitle="Chess Game" 
-                projectdescription="Developed a web game application like Flappy bird which is played by tapping the screen We alternated the game play by using the Gyroscope of the user’s mobile"
+                projectdescription="Developed a web game application like Flappy bird which is played by tapping the screen We alternated the game play by using the Gyroscope of the user's mobile"
             />
 
             <ProjectDetails 
                 projecttitle="Tappy Bird" 
                 projectdescription=
-                "Developed a web game application like Flappy bird which is played by tapping the screen We alternated the game play by using the Gyroscope of the user’s mobile"
+                "Developed a web game application like Flappy bird which is played by tapping the screen We alternated the game play by using the Gyroscope of the user's mobile"
             />
         </div>
     );
