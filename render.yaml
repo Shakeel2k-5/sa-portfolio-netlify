@@ -1,7 +1,0 @@
-services:
-  - type: static
-    name: my-react-app
-    repo: https://github.com/Shakeel2k-5/Portfolio-Website
-    buildCommand: npm run build
-    staticPublishPath: build
-    branch: main
